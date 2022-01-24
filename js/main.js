@@ -71,7 +71,7 @@ const addStudent = () => {
     console.log(newStudent)
 
     axios({
-        url: "http://svcy.myclass.vn/api/SinhVien/ThemSinhVien",
+        url: "https://svcy.myclass.vn/api/SinhVien/ThemSinhVien",
         method: "POST",
         data: newStudent
     })
